@@ -11,4 +11,18 @@ create database :
 
  - grant privileges only drisclouds database
   ( GRANT ALL PRIVILEGES ON drisclouds . * TO 'drisclouds'@'localhost'; )
-  
+
+==========================================================================
+
+Edit file to database.yml /config/database.yml
+Example :
+
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: user_database
+  password: Password_database
+  socket: /var/run/mysqld/mysqld.sock
+
+=======================================================================
