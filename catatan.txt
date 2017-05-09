@@ -2,3 +2,13 @@ Pertama install mysql2 pada file gemfile :
 (edit gemfile dan add gem mysql2 seperti di bawah ini)
 
   - gem 'mysql2', '~> 0.4.6'
+
+==========================================================
+
+create database :
+ Name : drisclouds
+ Pass : *********
+
+ - grant privileges only drisclouds database
+  ( GRANT ALL PRIVILEGES ON drisclouds . * TO 'drisclouds'@'localhost'; )
+  
