@@ -1,0 +1,4 @@
+Pertama install mysql2 pada file gemfile :
+(edit gemfile dan add gem mysql2 seperti di bawah ini)
+
+  - gem 'mysql2', '~> 0.4.6'
