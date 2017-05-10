@@ -26,3 +26,9 @@ default: &default
   socket: /var/run/mysqld/mysqld.sock
 
 =======================================================================
+
+Cretae Database user :
+ - rails g model email:string username:string password_digest:string
+ - rake db:migrate
+
+=======================================================================
