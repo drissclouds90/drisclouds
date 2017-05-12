@@ -17,3 +17,4 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # Front Website
 Rails.application.config.assets.precompile += %w( front/welcome.css )
 Rails.application.config.assets.precompile += %w( front/style.css )
+Rails.application.config.assets.precompile += %w( bootstrap/css/bootstrap.css )
